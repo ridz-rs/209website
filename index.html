@@ -4,14 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
+    <title>CSC209</title>
+    <script src="assets/js/load.js"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/bootstrap/css/index.css">
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 </head>
 
 <body id="page-top">
@@ -24,8 +25,7 @@
                     <span class="sub">SYSTEMS PROGRAMMING</span>
                 </div>
             </div>
-            <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" role="button" id="findbutton" href="#portfolio">Find Out More</a> -->
-            <a href="#portfolio" id="arrow-container">
+            <a href="#portfolio" class="arrowcontainer">
                 <div class="arrow"></div>
                 <div class="arrow"></div>
                 <div class="arrow"></div>  
@@ -36,55 +36,86 @@
     <section id="portfolio" class="content-section">
         <div class="container">
             <div class="content-section-heading text-center">
-                <!-- <h2 class="glitch">Notes</h2> -->
-                <p id="typing">C:/Notes<span id="cursor">|</span></p>
+                <h1 class="glitch" id="youtube" data-text="youtube videos">youtube videos</h1>
+            <div class="canvas-wrapper">
+                <a href="https://www.youtube.com/watch?v=L2zsmYaI5ww" class="canvas">
+                    <div class="canvas_border">
+                        <svg>
+                            <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(253,137,68);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgb(153,75,23);stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                            <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                        </svg>
+                    </div>
+                    <div class="canvas_img-wrapper">
+                        <img class="canvas_img" src="/assets/img/1.jpg" alt="">
+                    </div>
+                    <div class="canvas_copy">
+                        <span class="canvas_copy_subtitle">CONVERSIONS</span>
+                        <strong class="canvas_copy_title">Number</strong>
+                        <strong class="canvas_copy_title">Systems</strong>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=5XgBd6rjuDQ" class="canvas">
+                    <div class="canvas_border">
+                        <svg>
+                            <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(253,137,68);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgb(153,75,23);stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                            <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                        </svg>
+                    </div>
+                    <div class="canvas_img-wrapper">
+                        <img class="canvas_img" src="/assets/img/Windows_Terminal_Logo_256x256.png" alt="">
+                    </div>
+                    <div class="canvas_copy">
+                        <span class="canvas_copy_subtitle">CMD LINE</span>
+                        <strong class="canvas_copy_title">Learn</strong>
+                        <strong class="canvas_copy_title">Terminal</strong>
+                    </div>
+                </a>
             </div>
-            <div class="row no-gutters">
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Stationary</h2>
-                                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-1.jpg"></a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Ice Cream</h2>
-                                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-2.jpg"></a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Strawberries</h2>
-                                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-3.jpg"></a>
-                </div>
-                <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <h2>Workspace</h2>
-                                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                            </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio-4.jpg"></a>
-                </div>
+            <div class="canvas-wrapper">
+                <a href="https://www.youtube.com/watch?v=ggSyF1SVFr4" class="canvas">
+                    <div class="canvas_border">
+                        <svg>
+                            <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(253,137,68);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgb(153,75,23);stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                            <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                        </svg>
+                    </div>
+                    <div class="canvas_img-wrapper">
+                        <img class="canvas_img" src="/assets/img/download.png" alt="">
+                    </div>
+                    <div class="canvas_copy">
+                        <span class="canvas_copy_subtitle">EDITOR</span>
+                        <strong class="canvas_copy_title">VIM</strong>
+                        <strong class="canvas_copy_title">Basics</strong>
+                    </div>
+                </a>
+                <a href="http://www.patience-is-a-virtue.org/" class="canvas">
+                    <div class="canvas_border">
+                        <svg>
+                            <defs><linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(253,137,68);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgb(153,75,23);stop-opacity:1"></stop></linearGradient><linearGradient id="grad-red" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#D34F48"></stop><stop offset="100%" stop-color="#772522"></stop></linearGradient></defs>
+                            <rect id="rect-grad" class="rect-gradient" fill="none" stroke="url(#grad-orange)" stroke-linecap="square" stroke-width="4" stroke-miterlimit="30" width="100%" height="100%"></rect>
+                        </svg>
+                    </div>
+                    <div class="canvas_img-wrapper">
+                        <img class="canvas_img" src="assets/img/download (1).png" alt="">
+                    </div>
+                    <div class="canvas_copy">
+                        <span class="canvas_copy_subtitle"></span>
+                        <strong class="canvas_copy_title"></strong>
+                        <strong class="canvas_copy_title">Click to find out</strong>
+                    </div>
+                </a>
             </div>
         </div>
+        <a href="#portfolio" class="arrowcontainer2">
+            <div class="arrow2"></div>
+            <div class="arrow2"></div>
+            <div class="arrow2"></div>  
+        </a> 
     </section>
-    <footer class="footer text-center">
+    <footer id="footer" class="footer text-center">
         <div class="container">
             <ul class="list-inline mb-5">
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="#"><i class="icon-social-facebook"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="#"><i class="icon-social-twitter"></i></a></li>
-                <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" href="#"><i class="icon-social-github"></i></a></li>
+                
             </ul>
             <p class="text-muted mb-0 small">Copyright &nbsp;© Brand 2020</p>
         </div><a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a></footer>
