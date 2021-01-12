@@ -10,6 +10,10 @@ h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -222,6 +226,11 @@ strong {
   font-weight: 900;
 }
 
+.section-header {
+  font-size: 4em;
+  margin-top: 5px;
+}
+
 .canvas-wrapper {
   display: flex;
   flex-direction: row;
@@ -330,6 +339,17 @@ strong {
 }
 
 @media only screen and (max-width: 500px) {
+  .masthead h1 {
+    font-size: 2.5em;
+  }
+  .sub {
+    font-size: 0.9em;
+    letter-spacing: 0.5em;
+  }
+  .section-header {
+    font-size: 2.3em;
+    margin-top: 5px;
+  }
   .canvas-wrapper {
     margin-bottom: 150px;
   }
@@ -459,11 +479,6 @@ strong {
 span {
   display: inline-block;
   padding: 0 10px;
-}
-
-.section-header {
-  font-size: 4em;
-  margin-top: 5px;
 }
 
 $barsize: 15px;
